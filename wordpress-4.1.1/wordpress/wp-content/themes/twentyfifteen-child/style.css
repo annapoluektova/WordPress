@@ -1,0 +1,60 @@
+/*
+Theme Name:     Twenty Fifteen Child
+Description:    
+Author:         Mike Simmons
+Template:       twentyfifteen
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../twentyfifteen/style.css");
+
+/* your theme customizations go below this line */
+
+/* to display a larger logo image - change 20% to a value between ~ 15% to 5% (whatever works best) */
+
+.site-header {
+		padding: 0 20%;
+	}
+
+/*  post category box at top of page  use "display:none;" to remove  */
+
+.page-header {
+  border-color: #22313f;
+  display:none;
+}
+
+
+ /* padding at top  default 8.3333% */
+ 
+.site-main {
+  padding: 4.3333% 0;
+}
+
+/* Remove automatic hyphenation */
+
+.site-content article { word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; }
+.widget-area .widget { word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none; }
+
+
+/* featured images full-width of content */
+
+.post-thumbnail img {
+        width: 100%;
+        }
+
+
+/* footer info box ("display: none;" removes footer box */
+
+.site-info {
+  padding: 5% 10%;
+  display: none;
+}
+
+/* page & post title font (to change color, add color code under color:) */
+
+.entry-title {
+  font-size: 3.1rem;
+  line-height: 1.1613;
+  color: #;
+}
